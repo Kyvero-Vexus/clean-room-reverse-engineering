@@ -1,0 +1,12 @@
+id: cut-subset
+tier: B
+source_program: GNU cut (GPL)
+objective: reimplement bounded cut behavior in GPL code via clean-room process
+feature_subset:
+  - delimiter mode
+  - field lists/ranges
+excluded:
+  - byte/character mode if not explicitly enabled
+acceptance:
+  - parity_tests_pass_rate_min: 93
+  - required_artifacts_complete: true

@@ -1,0 +1,13 @@
+[Unit]
+Description=CRRE Autoresearch Dashboard (LAN)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/info/clean-room-reverse-engineering/autoresearch-benchmark-pack
+ExecStart=/usr/bin/env python3 %h/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/dashboard_server.py --host 0.0.0.0 --port 8787 --results %h/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/results.tsv
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target

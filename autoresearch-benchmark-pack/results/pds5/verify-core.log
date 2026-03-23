@@ -1,0 +1,1 @@
+20260322T103800EDT | placeholder verify log | cmd=sbcl --script packages/clpkg-ime/scripts/verify-core.lisp

@@ -1,0 +1,9 @@
+{
+  "candidate": "/usr/bin/sort",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 4,
+  "status": "ok",
+  "task": "sort-subset",
+  "total_cases": 4
+}

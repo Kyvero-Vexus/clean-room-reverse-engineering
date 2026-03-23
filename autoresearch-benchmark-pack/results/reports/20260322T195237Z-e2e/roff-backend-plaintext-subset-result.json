@@ -1,0 +1,9 @@
+{
+  "candidate": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 4,
+  "status": "ok",
+  "task": "roff-backend-plaintext-subset",
+  "total_cases": 4
+}

@@ -1,0 +1,5 @@
+Run complete.
+  run_dir: /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T133830-grep-lite-subset-cycle004_adversarial_gate2
+  score:   100.0
+  status:  ok
+  ledger:  /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/results.tsv

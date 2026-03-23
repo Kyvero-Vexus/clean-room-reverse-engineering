@@ -1,0 +1,18 @@
+{
+  "critical_missing": [],
+  "found": [
+    "intake-form.md",
+    "taint-register.yaml",
+    "spec-index.yaml",
+    "test-index.yaml",
+    "traceability-matrix.yaml",
+    "compliance-report.md"
+  ],
+  "found_total": 6,
+  "hard_fail": false,
+  "missing": [],
+  "pass_rate": 1.0,
+  "required_total": 6,
+  "run_dir": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T055319-grep-lite-subset-cycle004b_lite10",
+  "status": "ok"
+}

@@ -1,0 +1,26 @@
+CMD: cd /home/slime/.openclaw/workspace-ceo_chryso && sbcl --script packages/clpkg-keymap/scripts/verify-core.lisp
+Unhandled FILE-DOES-NOT-EXIST in thread #<SB-THREAD:THREAD tid=3968430 "main thread" RUNNING
+                                           {1200BE0003}>:
+  The file
+  #P"/home/slime/.openclaw/workspace-ceo_chryso/packages/clpkg-keymap/scripts/verify-core.lisp"
+  does not exist:
+    No such file or directory
+
+Backtrace for: #<SB-THREAD:THREAD tid=3968430 "main thread" RUNNING {1200BE0003}>
+0: (SB-DEBUG::DEBUGGER-DISABLED-HOOK #<FILE-DOES-NOT-EXIST {1200BC07B3}> #<unused argument> :QUIT T)
+1: (SB-DEBUG::RUN-HOOK *INVOKE-DEBUGGER-HOOK* #<FILE-DOES-NOT-EXIST {1200BC07B3}>)
+2: (INVOKE-DEBUGGER #<FILE-DOES-NOT-EXIST {1200BC07B3}>)
+3: (ERROR FILE-DOES-NOT-EXIST :PATHNAME #P"/home/slime/.openclaw/workspace-ceo_chryso/packages/clpkg-keymap/scripts/verify-core.lisp" :MESSAGE "No such file or directory")
+4: (SB-IMPL::FILE-PERROR #P"/home/slime/.openclaw/workspace-ceo_chryso/packages/clpkg-keymap/scripts/verify-core.lisp" 2 FILE-DOES-NOT-EXIST)
+5: (SB-IMPL::%OPEN-ERROR #P"/home/slime/.openclaw/workspace-ceo_chryso/packages/clpkg-keymap/scripts/verify-core.lisp" 2 :IGNORE-THIS-ARG :ERROR)
+6: (OPEN #P"packages/clpkg-keymap/scripts/verify-core.lisp" :DIRECTION :INPUT :ELEMENT-TYPE :DEFAULT :IF-EXISTS NIL :IF-DOES-NOT-EXIST NIL :EXTERNAL-FORMAT :DEFAULT :CLASS SB-SYS:FD-STREAM)
+7: ((FLET SB-UNIX::BODY :IN SB-IMPL::PROCESS-SCRIPT))
+8: ((FLET "WITHOUT-INTERRUPTS-BODY-" :IN SB-IMPL::PROCESS-SCRIPT))
+9: (SB-IMPL::PROCESS-SCRIPT "packages/clpkg-keymap/scripts/verify-core.lisp")
+10: (SB-IMPL::TOPLEVEL-INIT)
+11: ((FLET SB-UNIX::BODY :IN SB-IMPL::START-LISP))
+12: ((FLET "WITHOUT-INTERRUPTS-BODY-3" :IN SB-IMPL::START-LISP))
+13: (SB-IMPL::%START-LISP)
+
+unhandled condition in --disable-debugger mode, quitting
+RESULT: fail exit=1

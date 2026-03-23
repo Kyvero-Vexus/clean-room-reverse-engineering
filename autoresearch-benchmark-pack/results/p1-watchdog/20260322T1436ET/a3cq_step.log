@@ -1,0 +1,2 @@
+CMD: cd /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack && scripts/run-benchmark.sh roff-tokenizer-parser /usr/bin/grep cron-driver cycle-roff-a3cq
+RESULT: fail exit=1

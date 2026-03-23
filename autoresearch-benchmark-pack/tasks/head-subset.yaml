@@ -1,0 +1,12 @@
+id: head-subset
+tier: A
+source_program: GNU head (GPL)
+objective: reimplement bounded head behavior in GPL code via clean-room process
+feature_subset:
+  - first N lines
+  - first N bytes (limited options)
+excluded:
+  - unsupported option families not listed in feature_subset
+acceptance:
+  - parity_tests_pass_rate_min: 95
+  - required_artifacts_complete: true

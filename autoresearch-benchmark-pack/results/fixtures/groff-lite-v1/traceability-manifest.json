@@ -1,0 +1,45 @@
+{
+  "fixture_set": "groff-lite-v1",
+  "traceability": [
+    {
+      "path": "results/fixtures/groff-lite-v1/expected/groff-escape-001.tokens.json",
+      "sha256": "5739df44ee2e137816902a7afcc02ecd8403503700779e47bc45e7af0fa0a9a4"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/expected/groff-flow-001.behavior.json",
+      "sha256": "9f28b69bad3ddc49f38fcc36a117881fcffc4e349930a5e694af4aa7d4bf8f9b"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/expected/groff-macro-001.behavior.json",
+      "sha256": "5e31c3b0b4d87bb0398834a5ee508b6375f2ef8720291837c400110f28482a79"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/expected/groff-state-001.behavior.json",
+      "sha256": "13dbf51daf729458ce85f6d62902fdd49e9a685c1f89b05b3e471c9c0883cfd6"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/expected/groff-token-001.tokens.json",
+      "sha256": "aaf4283c2027a62c309126b18003a9fea6e35fa0ebf1bb9d540099c6380abbfa"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/inputs/groff-escape-001.roff",
+      "sha256": "5111f00bc0d6070eb58ff404c60b064efa57ca6d9ddc886c3f543a2836b102fe"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/inputs/groff-flow-001.roff",
+      "sha256": "cc24799327c3a21b510255d342e4529482bd3395e2a39a7aa606d07b83256850"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/inputs/groff-macro-001.roff",
+      "sha256": "8334ddcf8d6fd39f9beee873c3ac3e68dd04d6f591420a56b21ab5cd4ca38398"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/inputs/groff-state-001.roff",
+      "sha256": "ff34866f9a32e793c7d07abd15b45a58eb6aeef209eff0198577f57b08613009"
+    },
+    {
+      "path": "results/fixtures/groff-lite-v1/inputs/groff-token-001.roff",
+      "sha256": "bbd75b60ea7ff6b6bfb2c369163bb196fff6f4e3a606ac13bf663e384604261f"
+    }
+  ]
+}

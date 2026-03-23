@@ -1,0 +1,1 @@
+{"fixture_id":"groff-state-001","expect":{"registers":{"N":3},"strings":{"S":"hello"},"render_contains":"3 hello"}}

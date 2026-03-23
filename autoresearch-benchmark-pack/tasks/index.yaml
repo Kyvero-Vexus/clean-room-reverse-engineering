@@ -1,0 +1,41 @@
+tasks:
+  - id: basename-subset
+    tier: A
+    source_program: GNU basename (GPL)
+    focus: path tail extraction behaviors
+    file: basename-subset.yaml
+  - id: dirname-subset
+    tier: A
+    source_program: GNU dirname (GPL)
+    focus: parent path extraction behaviors
+    file: dirname-subset.yaml
+  - id: wc-subset
+    tier: A
+    source_program: GNU wc (GPL)
+    focus: lines/words/bytes counting
+    file: wc-subset.yaml
+  - id: head-subset
+    tier: A
+    source_program: GNU head (GPL)
+    focus: first N lines/bytes behavior
+    file: head-subset.yaml
+  - id: cut-subset
+    tier: B
+    source_program: GNU cut (GPL)
+    focus: delimiter/field/range extraction
+    file: cut-subset.yaml
+  - id: uniq-subset
+    tier: B
+    source_program: GNU uniq (GPL)
+    focus: adjacent duplicate handling
+    file: uniq-subset.yaml
+  - id: sort-subset
+    tier: B
+    source_program: GNU sort (GPL)
+    focus: stable ordering and key options subset
+    file: sort-subset.yaml
+  - id: grep-lite-subset
+    tier: C
+    source_program: GNU grep (GPL)
+    focus: regex and flags subset with edge cases
+    file: grep-lite-subset.yaml

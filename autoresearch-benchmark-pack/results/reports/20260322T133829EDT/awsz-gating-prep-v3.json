@@ -1,0 +1,1 @@
+{"issue":"workspace-ceo_chryso-awsz","mode":"prep-only","next_command":"python3 tools/prepare_complex_run.py --template results/reports/complex-run-template.md --gate-checklist results/reports/complex-run-gates.json","blockers":["workspace-ceo_chryso-rire chain unresolved"]}

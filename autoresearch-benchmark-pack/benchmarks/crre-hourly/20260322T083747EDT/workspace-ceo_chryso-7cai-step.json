@@ -1,0 +1,1 @@
+{"id":"workspace-ceo_chryso-7cai","step":"recorded dependency-lane checkpoint for complex-target escalation","evidence":"results/reports/20260322T083747EDT/7cai-lane-checkpoint.md","next_command":"bd ready --json | jq '.[] | select(.priority<=1)'"}

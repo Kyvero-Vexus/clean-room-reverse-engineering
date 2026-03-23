@@ -1,0 +1,107 @@
+{
+  "bundle_dir": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/bundles/cycle004",
+  "timestamp": "2026-03-22T15:53:23.243699",
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "path": "bundle-manifest-v7.json",
+      "sha256": "414ec87f742749c0413190f9b7d1934d9104089d4f4441ff133ec0b82a7c6e0f",
+      "size": 492
+    },
+    {
+      "path": "evidence-index-v1.json",
+      "sha256": "59375f7e60088128e6c19096c5117b0cc0322f9d567349e02770732eab3d2188",
+      "size": 629
+    },
+    {
+      "path": "bundle-manifest-v2.json",
+      "sha256": "c0b28ae929dfb422405d0ee4252c5456aedc942b546f961ccb0182fda4e10a2f",
+      "size": 261
+    },
+    {
+      "path": "collector-checkpoint-v7.json",
+      "sha256": "678831f421dd3b74f50d955ad3ff838ab26adee5a140d7425e9ae8162508fa0e",
+      "size": 305
+    },
+    {
+      "path": "bundle-manifest-v6.json",
+      "sha256": "d76997fbb16e632318b4cdb4d2146895f520304842c3575cbe1f922221dec43d",
+      "size": 2001
+    },
+    {
+      "path": "collector-checkpoint-v10.json",
+      "sha256": "29347dbb8aa3815479b26be58840ae0cf0adb9abe0ab600feb1901387500e4ee",
+      "size": 456
+    },
+    {
+      "path": "bundle-manifest-v9.json",
+      "sha256": "5ea8f52e84eea59fa7e2114553d01c2b2a8d891f77959431316aee5b0ce2a568",
+      "size": 964
+    },
+    {
+      "path": "bundle-manifest-v1.json",
+      "sha256": "62d7fbadaa7db21f64d4546f7c129045890fb58122de680de1b73799b79d82b3",
+      "size": 290
+    },
+    {
+      "path": "bundle-manifest-v5.json",
+      "sha256": "cc1d1d96cb38018de45bc1b206abf66e8b86796065aa6240207920856ad097ab",
+      "size": 632
+    },
+    {
+      "path": "bundle-manifest-v3.json",
+      "sha256": "dbda66fd5fdf438eb55704b551425150344aaeee094f631e5672beaecbc87166",
+      "size": 258
+    },
+    {
+      "path": "collector-final-v5.json",
+      "sha256": "613c11369c3f7ed05e2a5f0b969ce35f569949f9f8c71ff057836007eba72926",
+      "size": 203
+    },
+    {
+      "path": "collector-checkpoint-v6.json",
+      "sha256": "26575be63ef1eded0d86d4a30d6e0e12ea84dad0f6e446d550df5fcd782167f9",
+      "size": 626
+    },
+    {
+      "path": "collector-checkpoint-v8.json",
+      "sha256": "b4b470eff15f8460172b672c5176315a86cc1de95a267f243fe6b0e81e260618",
+      "size": 385
+    },
+    {
+      "path": "collector-checkpoint-v11.json",
+      "sha256": "33dce56d0794f087ce17f005c95b0a8158aae5bd37eb288627f96a076e66768e",
+      "size": 447
+    },
+    {
+      "path": "bundle-manifest-v8.json",
+      "sha256": "d5d5ad3aee5305467c24b11659ec56fb433192f7dc61fcd403e0b53073c819e1",
+      "size": 1403
+    },
+    {
+      "path": "collector-checkpoint-v4.json",
+      "sha256": "a8f0a33f2caeccd5762a6a99a8b42ffb2b5aeefc88ddf2b036d5bb8e7e96b6d3",
+      "size": 316
+    },
+    {
+      "path": "collector-checkpoint-v5.json",
+      "sha256": "79a8d41aaca639b76aaf1bd62d34950390e5b98c7c9ffa97be97fd3bf07e1c7c",
+      "size": 959
+    },
+    {
+      "path": "collector-checkpoint-v9.json",
+      "sha256": "caf1bd46e50bfaf46effe719e5debc3b8081f015a7c244bbaa7477201ae8c2c9",
+      "size": 407
+    },
+    {
+      "path": "bundle-manifest-v4.json",
+      "sha256": "f93abbc3eeb4672a18c31621f89aeb1f7ca78bf0768be43594111897803f176e",
+      "size": 629
+    },
+    {
+      "path": "checksums.sha256",
+      "sha256": "6aed6052b7a15212c13d315545530c93a1ea3213fac40b8f0cbb495198357eee",
+      "size": 3670
+    }
+  ]
+}

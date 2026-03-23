@@ -1,0 +1,13 @@
+id: wc-subset
+tier: A
+source_program: GNU wc (GPL)
+objective: reimplement bounded wc behavior in GPL code via clean-room process
+feature_subset:
+  - line count
+  - word count
+  - byte count
+excluded:
+  - locale-heavy behavior not covered by corpus
+acceptance:
+  - parity_tests_pass_rate_min: 95
+  - required_artifacts_complete: true

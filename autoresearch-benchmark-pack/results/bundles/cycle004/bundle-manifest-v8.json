@@ -1,0 +1,39 @@
+{
+  "artifacts": [
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v1.json",
+      "sha256": "62d7fbadaa7db21f64d4546f7c129045890fb58122de680de1b73799b79d82b3"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v2.json",
+      "sha256": "c0b28ae929dfb422405d0ee4252c5456aedc942b546f961ccb0182fda4e10a2f"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v3.json",
+      "sha256": "dbda66fd5fdf438eb55704b551425150344aaeee094f631e5672beaecbc87166"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v4.json",
+      "sha256": "f93abbc3eeb4672a18c31621f89aeb1f7ca78bf0768be43594111897803f176e"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v5.json",
+      "sha256": "cc1d1d96cb38018de45bc1b206abf66e8b86796065aa6240207920856ad097ab"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v6.json",
+      "sha256": "d76997fbb16e632318b4cdb4d2146895f520304842c3575cbe1f922221dec43d"
+    },
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v7.json",
+      "sha256": "414ec87f742749c0413190f9b7d1934d9104089d4f4441ff133ec0b82a7c6e0f"
+    },
+    {
+      "path": "results/bundles/cycle004/evidence-index-v1.json",
+      "sha256": "59375f7e60088128e6c19096c5117b0cc0322f9d567349e02770732eab3d2188"
+    }
+  ],
+  "bundle": "cycle004",
+  "generated_by": "cron-driver",
+  "manifest_version": "v8"
+}

@@ -1,0 +1,3 @@
+CMD: cd /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack && python3 tools/prepare_complex_run.py --template results/reports/complex-run-template.md --gate-checklist results/reports/complex-run-gates.json
+python3: can't open file '/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/tools/prepare_complex_run.py': [Errno 2] No such file or directory
+RESULT: fail exit=2

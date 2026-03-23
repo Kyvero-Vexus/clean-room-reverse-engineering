@@ -1,0 +1,11 @@
+{
+  "fixture_id": "groff-token-001",
+  "expect": [
+    {"type":"request","name":"TH","args":["TEST","1"]},
+    {"type":"request","name":"SH","args":["NAME"]},
+    {"type":"text","contains":"test"},
+    {"type":"escape","contains":"\\-"},
+    {"type":"request","name":"PP","args":[]},
+    {"type":"text","contains":"Hello world"}
+  ]
+}

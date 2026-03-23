@@ -1,0 +1,16 @@
+{
+  "candidate": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py",
+  "failures": [
+    {
+      "actual": "{\n  \"tokens\": [\n    {\n      \"type\": \"request\",\n      \"name\": \"nr\",\n      \"args\": \"COUNT 42\"\n    },\n    {\n      \"type\": \"text\",\n      \"contains\": \"\\\\n[COUNT]\"\n    },\n    {\n      \"type\": \"blank\"\n    }\n ",
+      "detail": "",
+      "expected": "42",
+      "name": "nr-register-expand"
+    }
+  ],
+  "pass_rate": 0.75,
+  "passed_cases": 3,
+  "status": "ok",
+  "task": "roff-request-interpreter-subset",
+  "total_cases": 4
+}

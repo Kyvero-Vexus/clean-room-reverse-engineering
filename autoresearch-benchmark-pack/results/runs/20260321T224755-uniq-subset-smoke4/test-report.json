@@ -1,0 +1,9 @@
+{
+  "candidate": "/usr/bin/uniq",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 4,
+  "status": "ok",
+  "task": "uniq-subset",
+  "total_cases": 4
+}

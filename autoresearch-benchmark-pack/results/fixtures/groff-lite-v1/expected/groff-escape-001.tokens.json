@@ -1,0 +1,1 @@
+{"fixture_id":"groff-escape-001","expect":[{"type":"escape","contains":"\\-"},{"type":"escape","contains":"\\\\"},{"type":"escape","contains":"\\&"}]}

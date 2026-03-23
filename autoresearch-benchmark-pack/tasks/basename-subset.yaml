@@ -1,0 +1,12 @@
+id: basename-subset
+tier: A
+source_program: GNU basename (GPL)
+objective: reimplement bounded basename behavior in GPL code via clean-room process
+feature_subset:
+  - basic path tail extraction
+  - trailing slash normalization subset
+excluded:
+  - platform-specific non-POSIX edge behavior outside defined tests
+acceptance:
+  - parity_tests_pass_rate_min: 95
+  - required_artifacts_complete: true

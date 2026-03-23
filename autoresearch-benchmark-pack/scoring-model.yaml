@@ -1,0 +1,43 @@
+model_id: crre-skill-score-v1
+weights:
+  functional_parity: 0.45
+  cleanroom_compliance: 0.25
+  reproducibility: 0.15
+  simplicity: 0.10
+  cost_efficiency: 0.05
+hard_fail:
+  - contamination_boundary_breach
+  - missing_provenance_fields
+  - missing_required_artifacts
+  - gpl_metadata_noncompliance
+  - regression_set_fail
+metrics:
+  functional_parity:
+    source: test_pass_rate
+    scale: 0-100
+  cleanroom_compliance:
+    source: checklist_pass_rate
+    scale: 0-100
+  reproducibility:
+    source: rerun_variance_penalty
+    scale: 0-100
+  simplicity:
+    source: complexity_penalty_adjusted
+    scale: 0-100
+  cost_efficiency:
+    source: normalized_runtime_token_cost
+    scale: 0-100
+score_formula: |
+  total =
+    0.45 * functional_parity +
+    0.25 * cleanroom_compliance +
+    0.15 * reproducibility +
+    0.10 * simplicity +
+    0.05 * cost_efficiency
+keep_rule:
+  direction: higher-better
+  min_delta_to_keep: 0.50
+  tie_break:
+    - lower_contamination_risk
+    - lower_complexity
+    - lower_cost

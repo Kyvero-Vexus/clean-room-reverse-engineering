@@ -1,0 +1,12 @@
+id: dirname-subset
+tier: A
+source_program: GNU dirname (GPL)
+objective: reimplement bounded dirname behavior in GPL code via clean-room process
+feature_subset:
+  - parent path extraction
+  - root and dot-path handling subset
+excluded:
+  - undefined behavior outside explicit corpus
+acceptance:
+  - parity_tests_pass_rate_min: 95
+  - required_artifacts_complete: true

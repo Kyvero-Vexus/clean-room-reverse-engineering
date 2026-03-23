@@ -1,0 +1,9 @@
+{
+  "candidate": "/usr/bin/basename",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 5,
+  "status": "ok",
+  "task": "basename-subset",
+  "total_cases": 5
+}

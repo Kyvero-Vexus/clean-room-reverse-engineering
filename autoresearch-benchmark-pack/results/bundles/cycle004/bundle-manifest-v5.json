@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "path": "results/runs/20260322T093728-grep-lite-subset-mkkd_gate014/iteration-report.md",
+      "sha256": "a5034708bb33b89fbf0b9c560010d55499549021790d33e60029251db7b8988e"
+    },
+    {
+      "path": "results/reports/20260322T0937ET/mkkd-gate014-iteration-report.md",
+      "sha256": "a5034708bb33b89fbf0b9c560010d55499549021790d33e60029251db7b8988e"
+    },
+    {
+      "path": "results/reports/20260322T0937ET/oy96-handoff-checkpoint-v2.md",
+      "sha256": "71a5be009c517b92fbbedbab8ab631d2d6d1394ecf9a86c11db2bf0dadde4f6a"
+    }
+  ],
+  "cycle": "cycle004",
+  "manifest_key": "bundle-manifest-v5"
+}

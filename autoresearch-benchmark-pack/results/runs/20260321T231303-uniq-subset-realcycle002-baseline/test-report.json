@@ -1,0 +1,28 @@
+{
+  "candidate": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/uniq_baseline.py",
+  "failures": [
+    {
+      "actual": "a\nb\nc",
+      "detail": "oracle_rc=0 cand_rc=0 oracle_err= cand_err=",
+      "expected": "a\nb\nc\na",
+      "name": "default"
+    },
+    {
+      "actual": "3 a\n      2 b\n      1 c",
+      "detail": "oracle_rc=0 cand_rc=0 oracle_err= cand_err=",
+      "expected": "3 a\n      2 b\n      1 c\n      2 a",
+      "name": "count"
+    },
+    {
+      "actual": "a\nb",
+      "detail": "oracle_rc=0 cand_rc=0 oracle_err= cand_err=",
+      "expected": "a\nb\na",
+      "name": "duplicates-only"
+    }
+  ],
+  "pass_rate": 0.25,
+  "passed_cases": 1,
+  "status": "ok",
+  "task": "uniq-subset",
+  "total_cases": 4
+}

@@ -1,0 +1,13 @@
+id: grep-lite-subset
+tier: C
+source_program: GNU grep (GPL)
+objective: reimplement bounded grep-lite behavior in GPL code via clean-room process
+feature_subset:
+  - regex match basics
+  - invert match
+  - count mode
+excluded:
+  - full PCRE/advanced features outside defined scope
+acceptance:
+  - parity_tests_pass_rate_min: 88
+  - required_artifacts_complete: true

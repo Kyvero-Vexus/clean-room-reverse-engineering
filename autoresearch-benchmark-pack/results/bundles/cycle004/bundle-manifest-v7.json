@@ -1,0 +1,17 @@
+{
+  "bundle": "cycle004",
+  "version": "bundle-manifest-v7",
+  "generated_by": "cron-driver",
+  "entries": [
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v6.json",
+      "sha256": "d76997fbb16e632318b4cdb4d2146895f520304842c3575cbe1f922221dec43d",
+      "bytes": 2001
+    },
+    {
+      "path": "results/reports/20260322T0937ET/oy96-handoff-checkpoint-v2.md",
+      "sha256": "71a5be009c517b92fbbedbab8ab631d2d6d1394ecf9a86c11db2bf0dadde4f6a",
+      "bytes": 971
+    }
+  ]
+}

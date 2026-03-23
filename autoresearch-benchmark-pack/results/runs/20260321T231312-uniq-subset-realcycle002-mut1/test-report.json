@@ -1,0 +1,9 @@
+{
+  "candidate": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/uniq_mutation1.py",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 4,
+  "status": "ok",
+  "task": "uniq-subset",
+  "total_cases": 4
+}

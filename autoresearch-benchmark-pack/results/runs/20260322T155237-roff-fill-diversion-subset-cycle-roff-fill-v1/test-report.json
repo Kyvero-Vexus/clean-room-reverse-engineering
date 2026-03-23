@@ -1,0 +1,16 @@
+{
+  "candidate": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py",
+  "failures": [
+    {
+      "actual": "{\n  \"tokens\": [\n    {\n      \"type\": \"request\",\n      \"name\": \"di\",\n      \"args\": \"CAPTURED\"\n    },\n    {\n      \"type\": \"text\",\n      \"contains\": \"diversion content\"\n    },\n    {\n      \"type\": \"request",
+      "detail": "",
+      "expected": "CAPTURED diversion",
+      "name": "diversion-capture"
+    }
+  ],
+  "pass_rate": 0.6666666666666666,
+  "passed_cases": 2,
+  "status": "ok",
+  "task": "roff-fill-diversion-subset",
+  "total_cases": 3
+}

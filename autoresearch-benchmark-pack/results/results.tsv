@@ -1,0 +1,243 @@
+iter	commit	task_id	skill_variant	score	delta	status	description
+1	nocommit	basename-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/basename run_dir=20260321T223440-basename-subset-smoke1
+2	nocommit	wc-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/wc run_dir=20260321T223444-wc-subset-smoke2
+3	nocommit	cut-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/cut run_dir=20260321T224751-cut-subset-smoke3
+4	nocommit	uniq-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/uniq run_dir=20260321T224755-uniq-subset-smoke4
+5	nocommit	cut-subset	strict	88.75	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/cut_baseline.py run_dir=20260321T230653-cut-subset-realcycle001-baseline
+6	nocommit	cut-subset	strict	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/cut_mutation1.py run_dir=20260321T230719-cut-subset-realcycle001-mut1
+7	nocommit	uniq-subset	strict	66.25	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/uniq_baseline.py run_dir=20260321T231303-uniq-subset-realcycle002-baseline
+8	nocommit	uniq-subset	strict	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/uniq_mutation1.py run_dir=20260321T231312-uniq-subset-realcycle002-mut1
+9	nocommit	sort-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260321T234016-sort-subset-cycle003_oracle_baseline
+10	053ea50	sort-subset	cron-driver	100.0000	0.0000	ok	selected bead workspace-ceo_chryso-rha3; claimed and ran sort-subset oracle baseline (cycle003_oracle_baseline), wrote preliminary cycle report; chain progress 1/19 (5.26%). | normalized-task-id-from-bead
+11	f24ff4a	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-w3yy; claimed and advanced open->in_progress; no cycle benchmark executed in this run
+12	262a907	chain-progress	cron-driver	5.2600	0.0000	ok	selected workspace-ceo_chryso-7van; claimed bead and advanced to in_progress with next-step note (behavior-first evidence-bundle spec/traceability template queued).
+13	nocommit	sort-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T002344-sort-subset-cycle003_oracle_recheck
+14	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced with sort-subset oracle recheck run and published success bundle
+15	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3 run report: /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T002344-sort-subset-cycle003_oracle_recheck/iteration-report.md
+16	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T003406-sort-subset-cycle003_oracle_recheck2
+17	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced with sort-subset oracle recheck run cycle003_oracle_recheck2 and published success bundle
+18	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T003406-sort-subset-cycle003_oracle_recheck2/iteration-report.md
+19	nocommit	sort-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T004402-sort-subset-cycle003_oracle_recheck3
+20	262a907	chain-progress	cron-driver	5.2632	0.0000	waiting	selected bead workspace-ceo_chryso-rha3; no READY beads in ordered chain, advanced in_progress bead via sort-subset oracle recheck cycle003_oracle_recheck3.
+21	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T004402-sort-subset-cycle003_oracle_recheck3/score-report.json
+22	nocommit	sort-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T005349-sort-subset-cycle003_oracle_recheck4
+23	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced with sort-subset oracle recheck run cycle003_oracle_recheck4 and kept bead in_progress
+24	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/real-cycle-003-report.md; run results/runs/20260322T005349-sort-subset-cycle003_oracle_recheck4
+25	nocommit	sort-subset	strict	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T010400-sort-subset-cycle003_oracle_recheck5
+26	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced one slice via strict clean-room sort-subset oracle recheck5 and updated bead notes
+27	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T010400-sort-subset-cycle003_oracle_recheck5/iteration-report.md
+28	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T011340-sort-subset-cycle003_oracle_recheck6
+29	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead=workspace-ceo_chryso-rha3 action=advanced via sort-subset oracle recheck run cycle003_oracle_recheck6; chain closed 1/19
+30	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T011340-sort-subset-cycle003_oracle_recheck6/iteration-report.md
+31	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected=workspace-ceo_chryso-zxp5 action=claimed+advanced_to_in_progress closed=1/19
+32	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T013448-sort-subset-cycle003_oracle_recheck7
+33	262a907	chain-progress	cron-driver	5.2600	0.0000	ok	selected bead workspace-ceo_chryso-rha3; action: ran sort-subset oracle recheck cycle003_oracle_recheck7 and appended bead notes (in_progress).
+34	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T013448-sort-subset-cycle003_oracle_recheck7/iteration-report.md
+35	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T014514-sort-subset-cycle003_oracle_recheck8
+36	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected_bead=workspace-ceo_chryso-rha3 action=advanced_in_progress_oracle_recheck8 score=100.0
+37	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T014514-sort-subset-cycle003_oracle_recheck8/iteration-report.md
+38	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T015437-sort-subset-cycle003_oracle_recheck9
+39	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced one step via sort-subset oracle recheck run cycle003_oracle_recheck9 (score 100.0) and published success bundle
+40	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T015437-sort-subset-cycle003_oracle_recheck9/score-report.json
+41	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T022123-sort-subset-cycle003_oracle_recheck10
+42	262a907	chain-progress	cron-driver	5.2632	0.0000	ok	selected_bead=workspace-ceo_chryso-rha3 action=advanced in_progress bead with sort-subset oracle recheck (no READY beads in ordered chain)
+43	262a907	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T022123-sort-subset-cycle003_oracle_recheck10/iteration-report.md
+44	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T023028-sort-subset-cycle003_oracle_recheck11
+45	78a1e57	chain-progress	cron-driver	5.2600	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced one step via cycle003_oracle_recheck11 benchmark run and published success bundle
+46	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3 report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T023028-sort-subset-cycle003_oracle_recheck11/iteration-report.md
+47	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T024703-sort-subset-cycle003_oracle_recheck12
+48	78a1e57	chain-progress	cron-driver	5.2600	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced via sort-subset oracle recheck run cycle003_oracle_recheck12; status in_progress
+49	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T024703-sort-subset-cycle003_oracle_recheck12/iteration-report.md
+50	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T025742-sort-subset-cycle003_decision_gate13
+51	78a1e57	chain-progress	cron-driver	5.2632	0.0000	ok	selected_bead=workspace-ceo_chryso-rha3 action=ran_sort_subset_decision_gate13_and_appended_bead_notes
+52	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T025742-sort-subset-cycle003_decision_gate13/score-report.json
+53	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T030746-sort-subset-cycle003_decision_gate14
+54	78a1e57	chain-progress	cron-driver	5.2632	0.0000	waiting	selected_bead=workspace-ceo_chryso-rha3 action=advanced in_progress via cycle003_decision_gate14 run; earliest READY in chain none
+55	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T030746-sort-subset-cycle003_decision_gate14/iteration-report.md
+56	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T031707-sort-subset-cycle003_decision_gate15
+57	78a1e57	chain-progress	cron-driver	5.2632	0.0000	ok	selected_bead=workspace-ceo_chryso-rha3 action=advanced_via_sort_subset_decision_gate15
+58	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-rha3 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T031707-sort-subset-cycle003_decision_gate15/iteration-report.md
+59	nocommit	sort-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/sort run_dir=20260322T032720-sort-subset-cycle003_decision_gate16
+60	78a1e57	chain-progress	cron-driver	10.5263	0.0000	ok	selected bead workspace-ceo_chryso-rha3; advanced with sort-subset clean-room run and closed bead
+61	78a1e57	sort-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-rha3 report results/runs/20260322T032720-sort-subset-cycle003_decision_gate16
+62	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T033651-grep-lite-subset-cycle004_publish_lock3
+63	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected=workspace-ceo_chryso-w3yy action=ran grep-lite-subset cycle and closed bead; next=workspace-ceo_chryso-zxp5
+64	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-w3yy report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T033651-grep-lite-subset-cycle004_publish_lock3/iteration-report.md
+65	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	blocked	selected bead workspace-ceo_chryso-zxp5; attempted grep-core-regex-flags cycle run via run-benchmark, blocked by unsupported/invalid task execution in eval_task.py (no cycle score this run).
+66	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T035716-grep-lite-subset-cycle004b_lite
+67	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	waiting	selected bead=workspace-ceo_chryso-zxp5; action=ran supported grep-lite-subset cycle and logged unblock evidence while chain has no READY bead
+68	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T035716-grep-lite-subset-cycle004b_lite/iteration-report.md
+69	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T041843-grep-lite-subset-cycle004b_lite2
+70	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; advanced one step by running clean-room grep-lite-subset cycle and recording evidence; bead remains in_progress pending grep-core task-id alignment
+71	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5 cycle report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T041843-grep-lite-subset-cycle004b_lite2/iteration-report.md
+72	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T042814-grep-lite-subset-cycle004b_lite2
+73	nocommit	chain-progress	cron-driver	15.7900	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; advanced one bead via clean-room benchmark cycle004b_lite2 and logged evidence
+74	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5 report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T042814-grep-lite-subset-cycle004b_lite2/iteration-report.md
+75	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T043820-grep-lite-subset-cycle004b_lite3
+76	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	waiting	selected bead workspace-ceo_chryso-zxp5; no READY bead in ordered chain; advanced one bead via clean-room cycle run + note update
+77	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5 cycle score; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T043820-grep-lite-subset-cycle004b_lite3/iteration-report.md
+78	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T045107-grep-lite-subset-cycle004b_lite4
+79	nocommit	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; executed one clean-room cycle via scripts/run-benchmark.sh grep-lite-subset /usr/bin/grep cron-driver cycle004b_lite4; maintained contamination controls and behavior-first traceability.
+80	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5 cycle score from results/runs/20260322T045107-grep-lite-subset-cycle004b_lite4/iteration-report.md
+81	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T050330-grep-lite-subset-cycle004b_lite5
+82	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead=workspace-ceo_chryso-zxp5; action=ran one clean-room cycle (grep-lite-subset tag cycle004b_lite5), published success report copy, and kept bead in_progress pending grep-core task-id alignment.
+83	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T050330-grep-lite-subset-cycle004b_lite5/iteration-report.md
+84	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T051327-grep-lite-subset-cycle004b_lite6
+85	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; executed one clean-room cycle run (grep-lite-subset) and published success report
+86	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T051327-grep-lite-subset-cycle004b_lite6/iteration-report.md
+87	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T052343-grep-lite-subset-cycle004b_lite7
+88	nocommit	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; executed one clean-room cycle command for advancement (grep-lite-subset cycle004b_lite7).
+89	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5 report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T052343-grep-lite-subset-cycle004b_lite7/iteration-report.md
+90	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T053314-grep-lite-subset-cycle004b_lite8
+91	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; executed grep-lite-subset cycle004b_lite8; left in_progress pending grep-core regex/flags task-id alignment
+92	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T053314-grep-lite-subset-cycle004b_lite8/iteration-report.md
+93	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T054353-grep-lite-subset-cycle004b_lite9
+94	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected_bead=workspace-ceo_chryso-zxp5 action=advanced one clean-room cycle (grep-lite-subset cycle004b_lite9); grep-core-regex-flags remains unsupported in harness
+95	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T054353-grep-lite-subset-cycle004b_lite9/iteration-report.md
+96	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T055319-grep-lite-subset-cycle004b_lite10
+97	6eca6dc	chain-progress	cron-driver	15.7900	0.0000	ok	selected bead=workspace-ceo_chryso-zxp5; action=ran one clean-room cycle (cycle004b_lite10) and kept bead in_progress under contamination controls
+98	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5; report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T055319-grep-lite-subset-cycle004b_lite10/iteration-report.md
+99	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T060315-grep-lite-subset-cycle004b_lite11
+100	6eca6dc	chain-progress	cron-driver	15.7895	0.0000	ok	selected bead workspace-ceo_chryso-zxp5; ran one clean-room cycle (cycle004b_lite11), recorded report, and kept bead in_progress for task-id alignment.
+101	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-zxp5; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T060315-grep-lite-subset-cycle004b_lite11/iteration-report.md
+102	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T061328-grep-lite-subset-cycle004b_lite12
+103	nocommit	chain-progress	cron-driver	0.0000	0.0000	blocked	selected_bead=workspace-ceo_chryso-zxp5 action=ran one cycle grep-lite-subset because no READY chain bead was returned by bd ready; chain closed_count=0/19
+104	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T061328-grep-lite-subset-cycle004b_lite12/iteration-report.md
+105	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T062330-grep-lite-subset-cycle004b_lite12
+106	6eca6dc	chain-progress	cron-driver	15.7900	0.0000	ok	selected_bead=workspace-ceo_chryso-zxp5 action=ran cycle004b_lite12 and logged progress
+107	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead_id=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T062330-grep-lite-subset-cycle004b_lite12/iteration-report.md
+108	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T063308-grep-lite-subset-cycle004b_lite12
+109	nocommit	chain-progress	cron-driver	15.7895	0.0000	ok	selected_bead=workspace-ceo_chryso-zxp5 action=ran grep-lite-subset cycle004b_lite12; chain_closed=3/19
+110	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-zxp5 report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T063308-grep-lite-subset-cycle004b_lite12/iteration-report.md
+111	nocommit	grep-core-regex-flags	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T063814-grep-core-regex-flags-cycle004b_matrix_unblock13
+112	nocommit	grep-file-context	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T063901-grep-file-context-cycle004c_context
+113	nocommit	grep-core-regex-flags	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T063950-grep-core-regex-flags-cycle004b_matrix_unblock13
+114	nocommit	grep-file-context	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T063954-grep-file-context-cycle004c_context
+115	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd (earliest READY in chain) and advanced by claiming open->in_progress; no cycle benchmark executed this run
+116	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T065402-grep-lite-subset-mkkd_gate001
+117	6eca6dc	chain-progress	cron-driver	26.3200	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; advanced by running clean-room regression-gate cycle (grep-lite-subset) and logging evidence
+118	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T065402-grep-lite-subset-mkkd_gate001/iteration-report.md
+119	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T070423-grep-lite-subset-mkkd_gate002
+120	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead=workspace-ceo_chryso-mkkd action=ran grep-lite-subset clean-room gate cycle mkkd_gate002 and appended bead notes
+121	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-mkkd report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T070423-grep-lite-subset-mkkd_gate002/iteration-report.md
+122	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T071433-grep-lite-subset-mkkd_gate003
+123	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; executed one clean-room regression-gate cycle (mkkd_gate003) and updated bead notes
+124	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T071433-grep-lite-subset-mkkd_gate003/iteration-report.md
+125	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T072403-grep-lite-subset-mkkd_gate004
+126	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; advanced one cycle via mkkd_gate004 (score 100.0, report results/runs/20260322T072403-grep-lite-subset-mkkd_gate004/iteration-report.md)
+127	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T072403-grep-lite-subset-mkkd_gate004/iteration-report.md
+128	nocommit	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-oy96; claimed and advanced one step by writing charter report at results/reports/oy96-groff-lite-charter-v1.md
+129	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T073557-grep-lite-subset-mkkd_gate004
+130	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T074358-grep-lite-subset-mkkd_gate005
+131	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; advanced one step via mkkd_gate005 benchmark run (score 100.0) with clean-room controls.
+132	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T074358-grep-lite-subset-mkkd_gate005/iteration-report.md
+133	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T075417-grep-lite-subset-mkkd_gate006
+134	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; executed one clean-room benchmark cycle (grep-lite-subset mkkd_gate006)
+135	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd run report: /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T075417-grep-lite-subset-mkkd_gate006/iteration-report.md
+136	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T081721-grep-lite-subset-mkkd_gate007
+137	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; advanced one cycle via grep-lite-subset benchmark mkkd_gate007
+138	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd cycle mkkd_gate007 report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T081721-grep-lite-subset-mkkd_gate007/iteration-report.md
+139	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T082730-grep-lite-subset-mkkd_gate008
+140	6eca6dc	chain-progress	cron-driver	26.3200	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; advanced one step via grep-lite regression gate cycle mkkd_gate008 (score 100.0, status ok)
+141	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T082730-grep-lite-subset-mkkd_gate008/iteration-report.md
+142	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T083610-grep-lite-subset-mkkd_gate005
+143	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T083802-grep-lite-subset-mkkd_gate009
+144	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T084550-grep-lite-subset-mkkd_gate010
+145	nocommit	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; executed grep-lite-subset cycle mkkd_gate010 and updated bead notes
+146	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T084550-grep-lite-subset-mkkd_gate010/iteration-report.md
+147	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T085607-grep-lite-subset-mkkd_gate011
+148	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; ran mkkd_gate011 regression cycle and appended bead note
+149	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T085607-grep-lite-subset-mkkd_gate011/iteration-report.md
+150	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T090618-grep-lite-subset-mkkd_gate012
+151	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; executed regression-gate cycle mkkd_gate012 and recorded advancement
+152	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T090618-grep-lite-subset-mkkd_gate012/iteration-report.md
+153	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T091603-grep-lite-subset-mkkd_gate013
+154	nocommit	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; executed one clean-room regression gate cycle (mkkd_gate013). closed_count=5/19
+155	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd cycle report: /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T091603-grep-lite-subset-mkkd_gate013/iteration-report.md
+156	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T092605-grep-lite-subset-mkkd_gate014
+157	6eca6dc	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead=workspace-ceo_chryso-mkkd; action=ran clean-room regression gate cycle mkkd_gate014 while no READY chain bead surfaced in bd ready; one-bead advancement recorded
+158	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-mkkd report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T092605-grep-lite-subset-mkkd_gate014/iteration-report.md
+159	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T093556-grep-lite-subset-mkkd_gate006
+160	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T093728-grep-lite-subset-mkkd_gate014
+161	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T093752-grep-lite-subset-mkkd_gate014
+162	nocommit	chain-progress	cron-driver	26.3158	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; action=ran one clean-room regression-gate cycle mkkd_gate014 (score 100.0 ok) and recorded advancement
+163	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T093752-grep-lite-subset-mkkd_gate014/iteration-report.md
+164	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T094813-grep-lite-subset-mkkd_gate015
+165	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	ok	selected bead workspace-ceo_chryso-mkkd; ran mkkd_gate015 regression benchmark (score 100.0), published success artifact, and closed bead. chain closed 6/19
+166	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-mkkd cycle mkkd_gate015 report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T094813-grep-lite-subset-mkkd_gate015/iteration-report.md
+167	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	waiting	selected_bead=workspace-ceo_chryso-7van action=advanced_in_progress_generated_bundle-manifest-v5_no_ready_bead_in_chain
+168	6eca6dc	chain-progress	cron-driver	31.5800	0.0000	waiting	selected bead=workspace-ceo_chryso-7van (earliest READY in chain: none); advanced one step by generating bundle-manifest-v6.json and appending bead notes
+169	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	ok	selected bead workspace-ceo_chryso-7van; advanced one step by generating deterministic evidence manifest results/bundles/cycle004/bundle-manifest-v7.json and appending bead notes.
+170	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	ok	selected bead workspace-ceo_chryso-7van; advanced one step by generating bundle-manifest-v8.json and recording bd comment
+171	6eca6dc	chain-progress	cron-driver	31.5800	0.0000	ok	selected bead workspace-ceo_chryso-7van; advanced one step by generating collector-checkpoint-v6 evidence artifact at results/bundles/cycle004/collector-checkpoint-v6.json
+172	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	waiting	selected bead=workspace-ceo_chryso-7van action=advanced collector checkpoint v7; no READY bead in ordered chain this run
+173	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	ok	selected bead workspace-ceo_chryso-7van; advanced one step by generating collector-checkpoint-v8.json for cycle004 evidence bundle.
+174	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	waiting	selected bead workspace-ceo_chryso-7van (earliest non-closed; no READY in ordered chain); advanced one step by generating collector-checkpoint-v9.json and updating bead notes
+175	6eca6dc	chain-progress	cron-driver	31.5800	0.0000	ok	selected bead workspace-ceo_chryso-7van; advanced one step by writing collector-checkpoint-v10.json under results/bundles/cycle004 with behavior-first traceability and contamination controls
+176	6eca6dc	chain-progress	cron-driver	31.5789	0.0000	ok	selected bead=workspace-ceo_chryso-7van; action=advanced one step by generating collector-checkpoint-v11 evidence artifact and appending bead notes
+177	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T113809-grep-lite-subset-jpph_cycle001_remap
+178	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T114242-grep-lite-subset-jpph_cycle002_remap
+179	nocommit	chain-progress	cron-driver	42.1053	0.0000	blocked	selected bead=workspace-ceo_chryso-jpph; action=advanced with clean-room remap run (grep-lite-subset) and recorded blocker: groff-lite-subset unsupported in eval_task.py
+180	nocommit	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-jpph report=results/runs/20260322T114242-grep-lite-subset-jpph_cycle002_remap/iteration-report.md
+181	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T115343-grep-lite-subset-jpph_cycle002_remap
+182	6eca6dc	chain-progress	cron-driver	42.1053	0.0000	blocked	selected_bead=workspace-ceo_chryso-jpph action=advanced_in_progress_with_grep_lite_remap; ordered-chain READY set empty due to upstream groff-lite-subset unsupported
+183	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-jpph report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T115343-grep-lite-subset-jpph_cycle002_remap/iteration-report.md
+184	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T122507-grep-lite-subset-jpph_cycle003_remap
+185	6eca6dc	chain-progress	cron-driver	42.1100	0.0000	blocked	selected bead workspace-ceo_chryso-jpph; advanced one step via grep-lite remap cycle (jpph_cycle003_remap); groff-lite-subset still unsupported/blocking strict chain.
+186	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-jpph cycle jpph_cycle003_remap; report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T122507-grep-lite-subset-jpph_cycle003_remap/iteration-report.md
+187	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T123509-grep-lite-subset-jpph_cycle004_remap
+188	6eca6dc	chain-progress	cron-driver	42.1053	0.0000	ok	selected=workspace-ceo_chryso-jpph action=ran grep-lite-subset remap cycle jpph_cycle004_remap and kept bead in_progress due unsupported groff-lite-subset
+189	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead=workspace-ceo_chryso-jpph report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T123509-grep-lite-subset-jpph_cycle004_remap/iteration-report.md
+190	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T125829-grep-lite-subset-jpph_cycle005
+191	6eca6dc	chain-progress	cron-driver	47.3700	0.0000	ok	selected bead workspace-ceo_chryso-jpph; executed grep-lite-subset cycle jpph_cycle005 and closed bead
+192	6eca6dc	grep-lite-subset	cron-driver	100.0000	0.0000	ok	bead workspace-ceo_chryso-jpph report /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T125829-grep-lite-subset-jpph_cycle005/iteration-report.md
+193	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	ok	selected bead workspace-ceo_chryso-rire; claimed and advanced with behavior-first groff-lite rubric/scope draft at results/reports/20260322T130818EDT/workspace-ceo_chryso-rire-rubric-scope-draft.md
+194	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	ok	selected bead workspace-ceo_chryso-rire; advanced one step by writing scope checkpoint artifact and appending bead notes with pinned behavior-first next command
+195	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	ok	selected bead workspace-ceo_chryso-rire; action: checkpointed ready bead with clean-room next-command artifact at results/reports/20260322T132806EDT/
+196	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T133712-grep-lite-subset-cycle004_adversarial_gate1
+197	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T133830-grep-lite-subset-cycle004_adversarial_gate2
+198	6eca6dc	chain-progress	cron-driver	47.3700	0.0000	blocked	selected bead workspace-ceo_chryso-rire; advanced one step by executing scoped groff-rubric command attempt, blocked because tools/define_groff_scope.py missing in autoresearch-benchmark-pack
+199	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	blocked	selected bead workspace-ceo_chryso-rire; advanced one bead with blocked checkpoint artifact and blocker verification (missing define_groff_scope runner).
+200	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	blocked	selected=workspace-ceo_chryso-rire; action=blocked-checkpoint-refresh (no ordered-chain bead READY this run); artifact=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T181124Z/workspace-ceo_chryso-rire-blocked-checkpoint.md
+201	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	blocked	selected=workspace-ceo_chryso-rire action=blocked-checkpoint-updated (no READY bead in ordered chain); report=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T182031Z/workspace-ceo_chryso-rire-blocked-checkpoint.md
+202	6eca6dc	chain-progress	cron-driver	47.3684	0.0000	blocked	selected bead workspace-ceo_chryso-rire; wrote blocked checkpoint at results/reports/20260322T183055Z/workspace-ceo_chryso-rire-blocked-checkpoint.md; blocker missing tools/define_groff_scope.py
+203	nocommit	grep-lite-subset	cron-driver	100.0	0.0000	ok	candidate=/usr/bin/grep run_dir=20260322T143704-grep-lite-subset-cycle004_adversarial_gate2
+204	6eca6dc	chain-progress	cron-driver	0.0000	0.0000	ok	selected=workspace-ceo_chryso-zvm7; action=claimed_and_generated_fixture_inventory_checkpoint:/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T144025EDT/workspace-ceo_chryso-zvm7-fixture-inventory.md
+205	6eca6dc	chain-progress	cron-driver	52.6316	0.0000	ok	selected bead workspace-ceo_chryso-zvm7; advanced with fixture corpus path+sha256 checkpoint artifact at results/reports/20260322T185056Z/workspace-ceo_chryso-zvm7-fixture-corpus-checkpoint.md
+206	6eca6dc	chain-progress	cron-driver	57.8947	0.0000	ok	selected bead workspace-ceo_chryso-zvm7; assembled groff-lite fixture corpus + tokenizer/parser behavior vectors with traceability manifest and closed bead
+207	6eca6dc	chain-progress	cron-driver	57.8900	0.0000	blocked	selected bead workspace-ceo_chryso-9kwr; claimed and advanced one step via behavior-first roff-tokenizer-parser-subset probe, blocked by unsupported harness task; checkpoint at results/reports/20260322T151053EDT/workspace-ceo_chryso-9kwr-blocked-checkpoint.md
+208	6eca6dc	chain-progress	cron-driver	57.8947	0.0000	blocked	selected bead workspace-ceo_chryso-9kwr; ran roff-tokenizer-parser-subset probe, blocked unsupported task; chain closed 11/19
+209	6eca6dc	chain-progress	cron-driver	57.8947	0.0000	blocked	selected bead workspace-ceo_chryso-9kwr; ran cycle010 benchmark (roff-tokenizer-parser-subset) and hit unsupported-task error; chain remains blocked at 9kwr
+210	nocommit	roff-tokenizer-parser-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T154240-roff-tokenizer-parser-subset-cycle009_9kwr
+211	nocommit	roff-macro-expansion-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T154351-roff-macro-expansion-subset-cycle010_dcz1
+212	nocommit	roff-request-interpreter-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T154525-roff-request-interpreter-subset-cycle011_knwa
+213	nocommit	roff-fill-diversion-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T154703-roff-fill-diversion-subset-cycle012_77y4
+214	nocommit	roff-backend-plaintext-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T154846-roff-backend-plaintext-subset-cycle013_fv3p
+215	nocommit	roff-compatibility-differential	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T155013-roff-compatibility-differential-cycle014_pvys
+216	nocommit	roff-tokenizer-parser-subset	cron-driver	73.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py run_dir=20260322T155207-roff-tokenizer-parser-subset-cycle-roff-a3cq-v1
+217	nocommit	roff-backend-plaintext-subset	cron-driver	88.75	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py run_dir=20260322T155237-roff-backend-plaintext-subset-cycle-roff-backend-v1
+218	nocommit	roff-fill-diversion-subset	cron-driver	85.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py run_dir=20260322T155237-roff-fill-diversion-subset-cycle-roff-fill-v1
+219	nocommit	roff-tokenizer-parser-subset	clean-room	100.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/scripts/roff-tokenizer.py run_dir=20260322T155337-roff-tokenizer-parser-subset-cycle-a3cq-final
+220	nocommit	roff-macro-expansion-subset	cron-driver	70.0	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py run_dir=20260322T155339-roff-macro-expansion-subset-cycle-roff-macro-v1
+221	nocommit	roff-request-interpreter-subset	cron-driver	88.75	0.0000	ok	candidate=/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/candidates/groff_lite_v1.py run_dir=20260322T155339-roff-request-interpreter-subset-cycle-roff-request-v1
+222	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	selected_bead=none (chain complete); action=no-op chain fully closed 19/19 (100%); all CRRE clean-room cycles completed with traceability and contamination controls preserved
+223	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 CRRE chain beads closed (s1vf through e1st). Chain complete. No additional action needed.
+224	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	Chain complete: all 19 beads closed (s1vf→e1st). No further advancement needed.
+225	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	Chain complete: all 19 CRRE beads closed (s1vf→e1st). No further advancement needed. Clean-room legality discipline maintained throughout with behavior-first specs, traceability, and contamination controls.
+226	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 beads closed (s1vf→e1st); no READY beads remain; chain progress 19/19 (100%)
+227	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf→e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained with behavior-first specs, traceability, and contamination controls
+228	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 chain beads closed (s1vf→e1st); CRRE iteration chain complete at 2026-03-22 17:28 EDT; no further bead advancement needed
+229	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	Chain complete: 19/19 beads closed. No further work needed. All CRRE cycles executed successfully.
+230	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf→e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained
+231	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	Chain complete: 19/19 beads closed. Earliest ready bead: none remaining. All CRRE cycle tasks completed.
+232	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf→e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained
+233	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf→e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained with behavior-first specs, traceability, and contamination controls
+234	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf→e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained with behavior-first specs, traceability, and contamination controls
+235	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	CRRE iteration driver: all 19 chain beads closed (s1vf-e1st). No READY bead to advance. Chain complete.
+236	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 CRRE chain beads CLOSED (s1vf-e1st); chain complete; no further advancement needed; monitoring only
+237	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 chain beads closed (s1vf-e1st). CRRE benchmark iteration chain complete. No active bead to advance this run.
+238	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	selected=chain-complete; all 19 CRRE chain beads closed (s1vf-e1st); chain progress 19/19 (100%); no READY beads remain; clean-room legality discipline maintained
+239	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 CRRE chain beads closed (s1vf-e1st). Chain complete. No further work.
+240	76498c5	chain-progress	cron-driver	100.0000	0.0000	ok	All 19 chain beads CLOSED (s1vf→e1st). Chain complete. No further advancement needed.
+241	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	2026-03-23 00:24 UTC: CRRE ordered chain complete. All 19 beads (s1vf through e1st) closed. Chain progress 19/19 = 100%. No READY beads remain. Selected bead: none (chain complete). Action: telemetry-only pass.
+242	nocommit	chain-progress	cron-driver	100.0000	0.0000	ok	2026-03-23 00:34 UTC: CRRE ordered chain complete. All 19 beads (s1vf through e1st) closed. Chain progress 19/19 = 100%. No READY beads remain. Selected bead: none (chain complete). Action: telemetry-only pass.

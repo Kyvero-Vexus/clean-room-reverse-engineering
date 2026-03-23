@@ -1,0 +1,33 @@
+name: CRRE Traceability
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  traceability:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Validate PR traceability fields
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          SPEC_INDEX_PATH: crre/spec-index.yaml
+          TEST_INDEX_PATH: crre/test-index.yaml
+        run: |
+          python ci/validate_pr_traceability.py
+
+      - name: Validate CRRE commit footers
+        run: |
+          chmod +x ci/validate_commit_footers.sh
+          ci/validate_commit_footers.sh origin/${{ github.base_ref }}

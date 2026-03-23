@@ -1,0 +1,1 @@
+{"cycle_id":"cycle004","checkpoint":"collector-v4","collector_command":"python3 tools/evidence_bundle.py collect --cycle cycle004 --out results/bundles/cycle004/","artifacts":["results/bundles/cycle004/bundle-manifest-v3.json","results/reports/20260322T0935ET/mkkd-gate006-iteration-report.md"],"status":"prepared"}

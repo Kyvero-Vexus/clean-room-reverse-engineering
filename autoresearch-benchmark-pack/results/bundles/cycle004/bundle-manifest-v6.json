@@ -1,0 +1,51 @@
+{
+  "artifact_count": 11,
+  "artifacts": [
+    {
+      "path": "results/reports/20260322T0835ET/oy96-charter-closure-checkpoint.md",
+      "sha256": "1bc5ecdcc65a6d75fcdf40efcc7b1822a836b8f66f0cf4f0a8564ae2f66d455a"
+    },
+    {
+      "path": "results/reports/20260322T083747EDT/7cai-lane-checkpoint.md",
+      "sha256": "230ea9dc5cdb22a5b39a727e8119bff46dafaadf83d92c5bade342a86e477b2c"
+    },
+    {
+      "path": "results/reports/20260322T083747EDT/oy96-charter-closure-checkpoint-v2.md",
+      "sha256": "037736be0dd7d90528bec8da0342ed7949b7ea755873616c5a0ad9d32a0fa78c"
+    },
+    {
+      "path": "results/reports/20260322T0935ET/mkkd-gate006-iteration-report.md",
+      "sha256": "cff80e6854d1738ff44efa2112f2a04d5ae6b4b4389e44fb1f1cc8b5ab77f385"
+    },
+    {
+      "path": "results/reports/20260322T0935ET/oy96-handoff-checkpoint.md",
+      "sha256": "e6c66e80b45bcab5f1b37ea4e09798e9496ee03afc4953b1b3f24e5fb4e65e80"
+    },
+    {
+      "path": "results/reports/20260322T0937ET/mkkd-gate014-iteration-report.md",
+      "sha256": "a5034708bb33b89fbf0b9c560010d55499549021790d33e60029251db7b8988e"
+    },
+    {
+      "path": "results/reports/20260322T0937ET/oy96-handoff-checkpoint-v2.md",
+      "sha256": "71a5be009c517b92fbbedbab8ab631d2d6d1394ecf9a86c11db2bf0dadde4f6a"
+    },
+    {
+      "path": "results/reports/cycle004b-regex-flags-matrix-unblock.json",
+      "sha256": "a9eea58d60eb9a9ef0dc5e714aedad04b5a6d41d5d2c7ac2e1ff2266cb081738"
+    },
+    {
+      "path": "results/reports/cycle004c-context-report.json",
+      "sha256": "1d140e01e98bf15206dd9e74a8670ba1f6cd196fa02e170534c82144dc77e6ee"
+    },
+    {
+      "path": "results/reports/oy96-groff-lite-charter-v1.md",
+      "sha256": "7b4c9daddbe305fe81e23421685a3b41384d2c8e6bd65feddce31d99e6bb3cb7"
+    },
+    {
+      "path": "results/reports/oy96-groff-lite-charter-v2.md",
+      "sha256": "1ba3e9ef82c8db4f7fc7c424d386f78402d29c9bcfc1c895ba8ec05ab7fd3864"
+    }
+  ],
+  "cycle": "cycle004",
+  "generated_at": "2026-03-22T14:11:07Z"
+}

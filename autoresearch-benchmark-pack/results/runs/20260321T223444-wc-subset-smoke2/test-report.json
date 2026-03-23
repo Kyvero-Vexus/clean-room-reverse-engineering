@@ -1,0 +1,9 @@
+{
+  "candidate": "/usr/bin/wc",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 16,
+  "status": "ok",
+  "task": "wc-subset",
+  "total_cases": 16
+}

@@ -1,0 +1,13 @@
+id: sort-subset
+tier: B
+source_program: GNU sort (GPL)
+objective: reimplement bounded sort behavior in GPL code via clean-room process
+feature_subset:
+  - lexical sort baseline
+  - stable behavior subset
+  - key selection subset
+excluded:
+  - full locale semantics beyond explicit tests
+acceptance:
+  - parity_tests_pass_rate_min: 90
+  - required_artifacts_complete: true

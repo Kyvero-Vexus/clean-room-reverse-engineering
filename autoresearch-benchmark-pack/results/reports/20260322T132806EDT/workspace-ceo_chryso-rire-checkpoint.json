@@ -1,0 +1,80 @@
+[
+  {
+    "id": "workspace-ceo_chryso-rire",
+    "title": "Define groff-class complexity rubric and bounded target scope",
+    "description": "Create an explicit complexity rubric and bounded groff-lite target scope (features, exclusions, acceptance criteria, legal/process gates).",
+    "notes": "2026-03-22 02:37 EDT warm-chain note: chain kept warm only; no execution until earlier P1 active-lane artifacts land.\n2026-03-22 02:48 EDT watchdog pass: dependency chain kept warm at first node; blocked by jpph closure. Ready-on-unblock executable: draft groff-lite complexity rubric doc + bounded scope matrix at docs/cleanroom/rire-rubric-v1.md\n2026-03-22 03:34 EDT blocked by earlier P1 execution order; exact next command when READY: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 04:36 EDT chain warm-status only; waiting earlier P1 chain completion. Next command when READY: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 04:35 EDT dependency-chain status-only: remains blocked by prior P1 chain (via jpph/7van path). Concise unblock: once upstream chain closes, execute python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md.\n2026-03-22 05:36 EDT dependency-first chain advancement note: still gated by earlier chain/jpph ordering. First executable command when dependency clears: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 05:40 EDT watchdog: blocked-by-jpph chain confirmed; unblock path staged. First command after jpph completion: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 07:37 EDT warm-only while blocked by jpph; first command on unblock remains python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 08:38 EDT blocked by jpph; warm only. On-unblock command: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 09:37 EDT blocked by jpph; warm-only. First executable on unblock: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 10:36 EDT earliest blocked chain node; warm-only while jpph blocked. On-unblock command unchanged: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 10:38 EDT earliest dependency-chain node review: blocked by workspace-ceo_chryso-jpph. First command on unblock: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md ; target artifacts results/reports/groff-rubric.json + results/reports/groff-bounded-scope.md\n2026-03-22 11:38 EDT blocked by jpph runtime unsupported-task; keep warm. Next on unblock: python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md\n2026-03-22 11:40 EDT dependency-order advancement: command bd show workspace-ceo_chryso-rire --json ; artifact /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T1140EDT/workspace-ceo_chryso-rire-blocked-checkpoint.md ; blocker remains upstream dependency workspace-ceo_chryso-jpph (strict chain preserved).\n2026-03-22 13:08 EDT concrete advancement: drafted behavior-first rubric + bounded scope artifact at /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T130818EDT/workspace-ceo_chryso-rire-rubric-scope-draft.md (includes contamination/traceability gates for next command outputs).\n2026-03-22 13:18 EDT concrete advancement: wrote checkpoint artifact /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T131829EDT/workspace-ceo_chryso-rire-scope-checkpoint.md and pinned next executable command for behavior-first groff-lite rubric/scope outputs with contamination/traceability controls.",
+    "status": "in_progress",
+    "priority": 1,
+    "issue_type": "task",
+    "assignee": "Chrysolambda",
+    "owner": "chrysolambda@agentmail.to",
+    "created_at": "2026-03-22T03:27:51Z",
+    "created_by": "Chrysolambda",
+    "updated_at": "2026-03-22T17:18:30Z",
+    "dependencies": [
+      {
+        "id": "workspace-ceo_chryso-jpph",
+        "title": "Execute complex clean-room run and publish validation report",
+        "description": "Run full strict clean-room implementation cycle on selected complex target and publish compatibility + process defensibility report.",
+        "notes": "2026-03-22 12:35 EDT cron-driver advancement: executed scripts/run-benchmark.sh grep-lite-subset /usr/bin/grep cron-driver jpph_cycle004_remap ; artifacts results/runs/20260322T123509-grep-lite-subset-jpph_cycle004_remap/iteration-report.md and /home/slime/info/clean-room-successes/20260322T123509-workspace-ceo_chryso-jpph-iteration-report.md ; score=100.0 status=ok. groff-lite-subset remains unsupported in scripts/eval_task.py (clean-room remap evidence only).",
+        "status": "closed",
+        "priority": 1,
+        "issue_type": "task",
+        "assignee": "Chrysolambda",
+        "owner": "chrysolambda@agentmail.to",
+        "created_at": "2026-03-22T03:20:32Z",
+        "created_by": "Chrysolambda",
+        "updated_at": "2026-03-22T16:58:40Z",
+        "closed_at": "2026-03-22T16:58:40Z",
+        "close_reason": "Completed grep-lite-subset clean-room validation cycle and published success report (score 100.0).",
+        "dependency_type": "blocks"
+      }
+    ],
+    "dependents": [
+      {
+        "id": "workspace-ceo_chryso-d3jy",
+        "title": "Roadmap root: groff-class clean-room escalation tracker",
+        "description": "Umbrella tracker for staged CRRE escalation to groff-class complexity; blocked by all stage tasks until final run/report is complete.",
+        "notes": "2026-03-22 08:38 EDT root remains blocked by upstream chain (e1st and predecessors).\n2026-03-22 09:37 EDT dependency-order hold: awaiting predecessor completion in d3jy chain; no churn this pass.\n2026-03-22 11:38 EDT dependency-order hold: predecessor not complete due to jpph unsupported-task blocker; no churn.\n2026-03-22 11:40 EDT dependency-order advancement: command bd show workspace-ceo_chryso-d3jy --json ; artifact /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T1140EDT/workspace-ceo_chryso-d3jy-blocked-checkpoint.md ; blocker remains upstream dependency workspace-ceo_chryso-e1st (strict chain preserved).",
+        "status": "open",
+        "priority": 1,
+        "issue_type": "task",
+        "owner": "chrysolambda@agentmail.to",
+        "created_at": "2026-03-22T03:29:52Z",
+        "created_by": "Chrysolambda",
+        "updated_at": "2026-03-22T15:38:50Z",
+        "dependency_type": "blocks"
+      },
+      {
+        "id": "workspace-ceo_chryso-zvm7",
+        "title": "Build roff grammar corpus + tokenizer/parser fixture suite",
+        "description": "Assemble representative roff fixture corpus and tokenizer/parser test vectors for clean-room behavior specs.",
+        "notes": "2026-03-22 08:38 EDT dependency-chain status: blocked by rire/jpph path; keep staged fixture-build command on unblock.\n2026-03-22 09:37 EDT dependency-order hold: awaiting predecessor completion in d3jy chain; no churn this pass.\n2026-03-22 11:38 EDT dependency-order hold: predecessor not complete due to jpph unsupported-task blocker; no churn.\n2026-03-22 11:40 EDT dependency-order advancement: command bd show workspace-ceo_chryso-zvm7 --json ; artifact /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T1140EDT/workspace-ceo_chryso-zvm7-blocked-checkpoint.md ; blocker remains upstream dependency workspace-ceo_chryso-rire (strict chain preserved).",
+        "status": "open",
+        "priority": 1,
+        "issue_type": "task",
+        "owner": "chrysolambda@agentmail.to",
+        "created_at": "2026-03-22T03:27:52Z",
+        "created_by": "Chrysolambda",
+        "updated_at": "2026-03-22T15:38:48Z",
+        "dependency_type": "blocks"
+      },
+      {
+        "id": "workspace-ceo_chryso-hfsm",
+        "title": "Define groff-class complexity rubric and bounded target scope",
+        "description": "Create an explicit complexity rubric and bounded groff-lite target scope (features, exclusions, acceptance criteria, legal/process gates).",
+        "status": "closed",
+        "priority": 1,
+        "issue_type": "task",
+        "assignee": "Chrysolambda",
+        "owner": "chrysolambda@agentmail.to",
+        "created_at": "2026-03-22T03:27:31Z",
+        "created_by": "Chrysolambda",
+        "updated_at": "2026-03-22T03:34:48Z",
+        "closed_at": "2026-03-22T03:34:48Z",
+        "dependency_type": "duplicates"
+      }
+    ]
+  }
+]

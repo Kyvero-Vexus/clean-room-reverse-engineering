@@ -1,0 +1,9 @@
+CMD: cd /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack && python3 - <<'PY'
+from pathlib import Path
+p=Path('results/reports/20260322T1436ET-7cai-normalization-checkpoint.md')
+p.parent.mkdir(parents=True, exist_ok=True)
+p.write_text('# 7cai normalization checkpoint\n- no chain mutation this pass\n')
+print(p)
+PY
+results/reports/20260322T1436ET-7cai-normalization-checkpoint.md
+RESULT: ok

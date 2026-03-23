@@ -1,0 +1,4 @@
+selected_bead=workspace-ceo_chryso-rire
+action=checkpointed-ready-bead
+next_command=python3 tools/define_groff_scope.py --rubric results/reports/groff-rubric.json --scope results/reports/groff-bounded-scope.md
+clean_room_controls=behavior-first-specs,traceability,contamination-audit

@@ -1,0 +1,2 @@
+[20260322T103745EDT] queued verify command: sbcl --script packages/clpkg-terminal-emulator/scripts/verify-core.lisp
+artifact: results/mdwr/verify-core-v2.log

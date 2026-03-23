@@ -1,0 +1,44 @@
+pack_id: crre-autoresearch-benchmark-v0
+created_utc: 2026-03-22T02:26:00Z
+objective: optimize-cleanroom-skill-gpl-to-gpl
+skill_targets:
+  - cleanroom-reverse-engineering
+  - cleanroom-reverse-engineering-quickstart
+  - cleanroom-reverse-engineering-strict
+lane_matrix:
+  - lane: quickstart
+    tiers: [A, B]
+  - lane: strict
+    tiers: [B, C]
+benchmark_sets:
+  dev_set:
+    - task: basename-subset
+      tier: A
+    - task: wc-subset
+      tier: A
+    - task: cut-subset
+      tier: B
+    - task: sort-subset
+      tier: B
+  test_set:
+    - task: dirname-subset
+      tier: A
+    - task: uniq-subset
+      tier: B
+  regression_set:
+    - task: head-subset
+      tier: A
+    - task: grep-lite-subset
+      tier: C
+run_defaults:
+  max_iters: 30
+  checkpoint_every: 5
+  timeout_seconds_per_task: 1200
+artifact_requirements:
+  - intake-form
+  - taint-register
+  - spec-clauses
+  - test-index
+  - traceability-matrix
+  - compliance-report
+  - iteration-report

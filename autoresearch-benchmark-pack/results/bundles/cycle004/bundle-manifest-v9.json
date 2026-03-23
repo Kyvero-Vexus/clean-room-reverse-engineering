@@ -1,0 +1,26 @@
+{
+  "artifacts": [
+    {
+      "path": "results/bundles/cycle004/bundle-manifest-v8.json",
+      "sha256": "d5d5ad3aee5305467c24b11659ec56fb433192f7dc61fcd403e0b53073c819e1"
+    },
+    {
+      "path": "results/bundles/cycle004/collector-checkpoint-v4.json",
+      "sha256": "a8f0a33f2caeccd5762a6a99a8b42ffb2b5aeefc88ddf2b036d5bb8e7e96b6d3"
+    },
+    {
+      "path": "results/reports/20260322T1035ET/oy96-handoff-v2.md",
+      "sha256": "2340a7ac693e3d653fdd708edac531d21f5b3d38d41cf2e1daa28d9d06525ee6"
+    },
+    {
+      "path": "results/runs/20260322T093752-grep-lite-subset-mkkd_gate014/iteration-report.md",
+      "sha256": "739a4d671380a728122d9002e4213d3fd3d3b8a2616869188d7c6c34c3cb32e3"
+    },
+    {
+      "path": "results/runs/20260322T094813-grep-lite-subset-mkkd_gate015/iteration-report.md",
+      "sha256": "9d4a07927251e8955d2eef068b9e746273be73a67be12555a131755b696b6ff8"
+    }
+  ],
+  "cycle": "cycle004",
+  "manifest_key": "bundle-manifest-v9"
+}

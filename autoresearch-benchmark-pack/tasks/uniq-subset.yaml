@@ -1,0 +1,12 @@
+id: uniq-subset
+tier: B
+source_program: GNU uniq (GPL)
+objective: reimplement bounded uniq behavior in GPL code via clean-room process
+feature_subset:
+  - adjacent duplicate elimination
+  - count mode subset
+excluded:
+  - locale/collation-heavy behavior outside corpus
+acceptance:
+  - parity_tests_pass_rate_min: 93
+  - required_artifacts_complete: true

@@ -1,0 +1,1 @@
+{"id":"workspace-ceo_chryso-7van","step":"generated deterministic bundle file index checkpoint","evidence":"benchmarks/crre-hourly/20260322T083747EDT/evidence-bundle-schema/file-index.txt","next_command":"sha256sum \/home/slime/.openclaw/workspace-ceo_chryso/results/bundles/cycle004/* | sort > benchmarks/crre-hourly/20260322T083747EDT/evidence-bundle-schema/checksums.txt"}

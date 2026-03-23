@@ -1,0 +1,1 @@
+{"fixture_id":"groff-macro-001","expect":{"defined_macro":"XX","expanded_contains":["Macro line 1","Macro line 2"]}}

@@ -1,0 +1,12 @@
+{
+  "checkpoint_id": "cycle004-collector-v11",
+  "bead_id": "workspace-ceo_chryso-7van",
+  "timestamp_et": "2026-03-22 11:32:40 EDT",
+  "action": "advanced evidence bundle collector checkpoint",
+  "controls": [
+    "behavior-first spec references only",
+    "traceability paths pinned",
+    "contamination-control: no source-derived implementation text"
+  ],
+  "next_step": "integrate manifest/checksum verification into per-cycle publish gate"
+}

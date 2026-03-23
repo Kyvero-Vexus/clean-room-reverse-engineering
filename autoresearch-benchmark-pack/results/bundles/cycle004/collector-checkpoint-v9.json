@@ -1,0 +1,12 @@
+{
+  "checkpoint": "collector-v9",
+  "timestamp": "20260322T111254EDT",
+  "bead_id": "workspace-ceo_chryso-7van",
+  "action": "advanced-one-step",
+  "clean_room_controls": [
+    "behavior-first-specs",
+    "traceability-links",
+    "contamination-controls"
+  ],
+  "next": "run python3 tools/evidence_bundle.py verify --bundle results/bundles/cycle004/ --require spec,test,traceability,contamination,score"
+}

@@ -1,0 +1,3 @@
+/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/bundles/cycle004/bundle-manifest-v1.json
+/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/bundles/cycle004/bundle-manifest-v2.json
+/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/bundles/cycle004/evidence-index-v1.json

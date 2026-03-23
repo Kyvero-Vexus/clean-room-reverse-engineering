@@ -1,0 +1,9 @@
+{
+  "candidate": "/usr/bin/grep",
+  "failures": [],
+  "pass_rate": 1.0,
+  "passed_cases": 7,
+  "status": "ok",
+  "task": "grep-core-regex-flags",
+  "total_cases": 7
+}

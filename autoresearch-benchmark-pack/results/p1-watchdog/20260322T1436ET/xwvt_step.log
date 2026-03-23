@@ -1,0 +1,7 @@
+CMD: cd /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack && scripts/run-benchmark.sh grep-lite-subset /usr/bin/grep cron-driver cycle004_adversarial_gate2
+Run complete.
+  run_dir: /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/runs/20260322T143704-grep-lite-subset-cycle004_adversarial_gate2
+  score:   100.0
+  status:  ok
+  ledger:  /home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/results.tsv
+RESULT: ok

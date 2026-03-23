@@ -1,0 +1,19 @@
+{
+  "cycle_id": "cycle004",
+  "entries": [
+    {
+      "exists": true,
+      "kind": "spec_traceability",
+      "path": "results/reports/oy96-groff-lite-charter-v2.md",
+      "sha256": "1ba3e9ef82c8db4f7fc7c424d386f78402d29c9bcfc1c895ba8ec05ab7fd3864"
+    },
+    {
+      "exists": true,
+      "kind": "regression_gate",
+      "path": "results/runs/20260322T073557-grep-lite-subset-mkkd_gate004/iteration-report.md",
+      "sha256": "c6bc082080ab3b0949d25b3f3757bc53f6f4b9c0115ee7f035e535b6cd8bfd9c"
+    }
+  ],
+  "generated_at_utc": "2026-03-22T11:37:19.110130Z",
+  "manifest": "results/bundles/cycle004/bundle-manifest-v1.json"
+}

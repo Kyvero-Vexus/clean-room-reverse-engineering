@@ -1,0 +1,7 @@
+{
+  "audit_timestamp": "20260322T195210Z",
+  "candidate": "scripts/roff-tokenizer.py",
+  "status": "clean",
+  "violations": [],
+  "verdict": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "artifact_index": [
+    {
+      "bytes": 492,
+      "path": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/bundles/cycle004/bundle-manifest-v7.json",
+      "sha256": "414ec87f742749c0413190f9b7d1934d9104089d4f4441ff133ec0b82a7c6e0f"
+    },
+    {
+      "bytes": 193,
+      "path": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/20260322T1035ET/oy96-handoff-v2.md",
+      "sha256": "2340a7ac693e3d653fdd708edac531d21f5b3d38d41cf2e1daa28d9d06525ee6"
+    },
+    {
+      "bytes": null,
+      "path": "/home/slime/info/clean-room-reverse-engineering/autoresearch-benchmark-pack/results/reports/mkkd-gate014-report.md",
+      "sha256": null
+    }
+  ],
+  "checkpoint": "collector-v5",
+  "command": "python3 tools/evidence_bundle.py collect --cycle cycle004 --out results/bundles/cycle004/ --manifest-key bundle-manifest-v7",
+  "generated_at": "2026-03-22T10:38:00.846569-04:00"
+}

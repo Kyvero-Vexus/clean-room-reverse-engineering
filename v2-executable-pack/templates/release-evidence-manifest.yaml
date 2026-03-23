@@ -1,0 +1,25 @@
+bundle_id: CRRE-BUNDLE-YYYY-MM-DD-R1
+project: example-project
+release_version: v0.0.0
+generated_at_utc: 1970-01-01T00:00:00Z
+scope:
+  objective: interoperability
+  components:
+    - component-a
+jurisdictions:
+  - US
+  - EU
+roles:
+  analysis_team: []
+  implementation_team: []
+  compliance_team: []
+hash_alg: sha256
+signing:
+  enabled: true
+  signer: ""
+artifacts:
+  spec_index: 03-functional-specs/spec-index.yaml
+  test_index: 04-conformance/test-index.yaml
+  traceability_matrix: 04-conformance/traceability-matrix.yaml
+  commit_range: 05-implementation/commit-range.txt
+  release_readiness: 06-compliance-and-audit/release-readiness.md
